@@ -31,11 +31,11 @@
       </div>
     </div>
   </nav>
-</header>
+
 
 <main>
-
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                                                                           <!-- carousel slide interval and disables the automatic pause ng carousel -->
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
